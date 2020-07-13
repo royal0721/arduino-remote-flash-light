@@ -182,7 +182,7 @@ void loop() {
   if (statusSensor == 1 && button == 0)
   {
    // pixels.setBrightness(30);
-  for (i = 0; i <= 89; i++) {
+  for (i = 0; i <= 178; i++) {
     if(i%2!=0){
     pixels.setPixelColor(i,pixels.Color(255,255,255));      
     }else{
@@ -194,7 +194,7 @@ void loop() {
   else if (statusSensor == 0 && button == 0)
   {
    // pixels.setBrightness(5);
-     for (i = 0; i <= 89; i++) {
+     for (i = 0; i <= 178; i++) {
       if(i%2!=0){
         pixels.setPixelColor(i,pixels.Color(255,0,0));
         }else{
